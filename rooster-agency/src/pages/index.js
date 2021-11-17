@@ -1,13 +1,15 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import { useStaticQuery, graphql } from 'gatsby'
+
 const IndexPage = () => {
   return (
     <main>
       <Layout pageTitle="Welcome to Rooster Agency!">
       <p>Lorem ipsum</p>
       <StaticImage
-        alt="randomized unsplash image!"
+        alt="Chet Baker"
         src="../images/chet.jpg"
       />
       </Layout>
