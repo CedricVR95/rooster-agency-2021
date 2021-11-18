@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 const ArtistsPage = ({data: {allWpArtist: {edges}}}) => {
   return (
-    <Layout pageTitle="Artists of Inghelbrecht Agency">
+    <Layout pageTitle="Artists of Rooster Agency">
       {edges.map((item) => {
         const artist = item.node.artistMeta;
         const slug = item.node.slug;
